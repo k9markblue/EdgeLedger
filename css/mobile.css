@@ -1,0 +1,63 @@
+#what .items{
+    display: block;
+    padding: 1rem;
+}
+#what .items .item{
+    display: flex;
+    text-align: left;
+}
+#what .items .item i{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 500px){
+    #nav-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-bar .logo{
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    #showcase .showcase-content{
+        top: 110px;
+    }
+
+    #who{
+        display: blockl
+    }
+    #who .who-img{
+        display: none;
+    }
+
+    #clients .items img{
+        width: 80%;
+    }
+    #clients .items div:last-child{
+        display: none;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+    #contact .map{
+        padding: 20vh;
+        border-top: 4px solid #333;
+    }
+}
+
+@media screen and (max-height: 568px){
+    .lg-heading{
+        font-size: 3rem;
+    }
+    .lead{
+        font-size: 1rem;
+    }
+    #showcase .showcase-content{
+        top: 140px;
+        margin-top: -2rem;
+    }
+}
